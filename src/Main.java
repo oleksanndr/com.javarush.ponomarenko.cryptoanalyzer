@@ -7,7 +7,6 @@ public class Main {
         String choice = "e";
         String[] str = {"1", "2", "3", "exit"};
 
-
         while (!choice.equals("exit")) {
             System.out.println(Sources.greetings);
             choice = scanner.nextLine();
