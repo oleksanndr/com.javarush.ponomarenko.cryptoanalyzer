@@ -16,7 +16,7 @@ public class Main {
                 switch (choice) {
                     case "1" -> Encrypt.encrypt();
                     case "2" -> DecryptionAndCod.decryption();
-                    case "3" -> System.out.println("Расшифровка методом brute force");
+                    case "3" -> DecryptionBruteForce.decryptionBruteForce();
                     case "exit" -> System.out.println("До встречи!");
                     default -> System.out.println("Введите правильный номер");
                 }
